@@ -1,0 +1,11 @@
+# ========== 指令开关 ==========
+enabled-commands:
+  reload: true
+  resetsign: true
+  economy: true
+
+# ========== 权限节点 ==========
+permissions:
+  reload: xbapi.admin
+  resetsign: xbapi.admin
+  economy: xbapi.economy

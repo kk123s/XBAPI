@@ -1,0 +1,21 @@
+# 网络配置
+port: 8080  # HTTP 服务器端口
+api-path: "/xbapi"  # API 基础路径
+
+# 各功能路径配置
+sign-path: "/xbapi/sign"  # 签到功能路径
+players-path: "/xbapi/players"  # 获取在线玩家列表路径
+economy-path: "/xbapi/economy"  # 经济操作路径
+balance-path: "/xbapi/balance"  # 金币查询路径
+
+# 调试模式
+debug: false  # 是否启用 Debug 模式
+
+# 安全配置
+security:
+  allow-all-ips: false  # 是否允许所有 IP 访问
+  allowed-ips:  # 允许访问的 IP 列表
+    - "127.0.0.1"
+
+# 经济系统
+sign-reward: 1000.0  # 每日签到奖励金额

@@ -1,0 +1,23 @@
+name: XBAPI
+version: 1.1
+main: com.example.xbapi.XBAPI
+api-version: 1.20
+description: 一个高度可定制的API插件，支持签到、经济操作和玩家管理
+authors:
+  - YourName
+website: https://example.com
+commands:
+  xbapi:
+    description: XBAPI 管理命令
+    usage: |
+      /xbapi reload - 重载配置
+      /xbapi debug - 切换 Debug 模式
+      /xbapi resetsign <玩家名> - 重置玩家签到状态
+    permission: xbapi.admin
+permissions:
+  xbapi.admin:
+    description: 允许使用 XBAPI 管理命令
+    default: op
+  xbapi.economy:
+    description: 允许使用经济操作API
+    default: false

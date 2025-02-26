@@ -1,0 +1,18 @@
+# ========== 通用消息 ==========
+prefix: "§6[§bXBAPI§6] "
+no-permission: "§c您没有权限执行此操作！"
+
+# ========== 指令消息 ==========
+commands:
+  reload:
+    success: "§a配置已热重载！"
+    usage: "§c用法: /xbapi reload"
+  resetsign:
+    success: "§a已重置玩家 %player% 的签到限制"
+    usage: "§c用法: /xbapi resetsign <玩家名>"
+
+# ========== API响应 ==========
+api:
+  sign:
+    success: "§a签到成功！获得 §e%reward% §a金币"
+    already-signed: "§c今日已签到，请明日再来"
