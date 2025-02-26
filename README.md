@@ -1,4 +1,4 @@
-XBAPI - Minecraft 网页端 API 插件 🎮🌐
+#XBAPI - Minecraft 网页端 API 插件 🎮🌐
 欢迎使用 XBAPI！这是一个专为 Minecraft 服务器设计的插件，旨在为网页端提供 API 支持。无论你是想开发一个玩家管理面板、签到系统。XBAPI 都能满足你的需求！🚀
 
 目录 📑
